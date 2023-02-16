@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Card = ({ name, type, id }) => {
-  const path = `login/assets/${type}-${id}.png`;
+  const path = `/login/assets/${type}-${id}.png`;
 
   return (
     <div

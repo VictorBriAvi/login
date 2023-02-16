@@ -11,7 +11,7 @@ const CharacterScreen = () => {
     (character) => character.id === id
   );
 
-  const path = `./assets/${type}-${id}.png`;
+  const path = `/login/assets/${type}-${id}.png`;
 
   const handleBack = () => {
     navigate(-1);
